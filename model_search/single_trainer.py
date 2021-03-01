@@ -19,7 +19,7 @@ from model_search import phoenix
 from model_search.proto import phoenix_spec_pb2
 import tensorflow.compat.v2 as tf
 from google.protobuf import text_format
-
+print("Bug2")
 
 class SingleTrainer(object):
   """Small wrapper for one simple one machine."""
