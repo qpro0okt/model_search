@@ -24,7 +24,7 @@ import enum
 from model_search import blocks
 from model_search import registry
 
-
+print("Give it to me baby")
 enum_dict = registry.get_base_enum(blocks.Block)
 enum_dict.update({'EMPTY_BLOCK': 0})
 
