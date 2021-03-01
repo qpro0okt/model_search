@@ -22,6 +22,8 @@ import tf_slim
 
 arg_scope = tf_slim.arg_scope
 print("Pretty Fly")
+print("For a white guy")
+
 
 class BlocksTest(parameterized.TestCase, tf.test.TestCase):
 
