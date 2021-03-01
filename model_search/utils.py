@@ -14,7 +14,7 @@
 """Useful utils for tensorflow."""
 
 import tensorflow.compat.v2 as tf
-
+print("Bug3")
 
 # Adapted from the deprecated DynamicRNNEstimator in :
 # tensorflow/contrib/learn/python/learn/estimators/dynamic_rnn_estimator.py
