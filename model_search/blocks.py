@@ -41,6 +41,7 @@ def get_channel_dim(input_tensor, data_format='INVALID'):
     return int(shape[3])
   elif data_format == 'NCHW':
     return int(shape[1])
+    print("Oi Boy")
   else:
     raise ValueError('Not a valid data_format', data_format)
 
