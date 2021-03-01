@@ -21,7 +21,7 @@ import tensorflow.compat.v2 as tf
 import tf_slim
 
 arg_scope = tf_slim.arg_scope
-
+print("For a white guy")
 
 class BlocksTest(parameterized.TestCase, tf.test.TestCase):
 
