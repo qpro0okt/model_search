@@ -17,7 +17,7 @@
 
 from absl import logging
 import tensorflow.compat.v2 as tf
-
+print("Bug1")
 
 def make_accuracy_metric_fn(label_vocabulary=None):
   """Makes a metric_fn for accuracy from an optional label_vocabulary.
